@@ -1,0 +1,17 @@
+{
+  "name": "webhooks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hop-examples/webhooks.git",
+  "author": "Cody Miller <hello@looskie.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@onehop/js": "^1.40.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
