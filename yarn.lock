@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@onehop/js@^1.40.3":
-  version "1.40.3"
-  resolved "https://registry.yarnpkg.com/@onehop/js/-/js-1.40.3.tgz#f1f0d133a2c7cd35d70552055abe3caea0bcdb66"
-  integrity sha512-/kAR4ICsoK30p7fn6APUPTQiGbRXVri8GZOFb1oq4fXPcZ9rt72l6/9mJ06xE9LQeopY8a9xGr+2WW+Clzatcg==
+"@onehop/js@^1.41.0":
+  version "1.41.0"
+  resolved "https://registry.yarnpkg.com/@onehop/js/-/js-1.41.0.tgz#73a6d26b07a2bbe950ee7559a3a5ad4fa76d90ac"
+  integrity sha512-SrBR6gnHGdeLQzFq4W1AQ9ZyW5NrkxsMY0IsIRNwn0bwJDmKX1qpo0Vm1sjPv9QN5pEGBak27Hb3T/KsIduqFQ==
   dependencies:
     "@onehop/json-methods" "^1.2.0"
     cross-fetch "^3.1.5"
