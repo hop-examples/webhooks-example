@@ -33,6 +33,17 @@ app.post("/webhook", async (req, res) => {
       } with ${JSON.stringify(event.data)}`
     );
 
+    switch (event.event) {
+      case "ignite.deployment.build.created":
+        console.log(event.data.started_at);
+        // ^ Type safe data
+        break;
+      case "ignite.deployment.gateway.created":
+        console.log(event.data.created_at);
+        // ^ Type safe data
+        break;
+    }
+
     res.status(204);
   } catch (err) {
     console.log(err);
